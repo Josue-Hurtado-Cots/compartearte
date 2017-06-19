@@ -1,6 +1,5 @@
-## bg-academy-JSP-integration
+## Compartearte 2017
 
-#### Integración proyecto Big Ben Academy con J2EE
 
 <p align="center"><img src="https://github.com/Josue-Hurtado-Cots/compartearte/blob/master/public/img/portada.png" width="300"></p>
 
