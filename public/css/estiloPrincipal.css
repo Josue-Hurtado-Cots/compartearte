@@ -1,0 +1,1598 @@
+								/************************************************/
+								/************** COMPARTE ARTE 2017 **************/
+								/************** Josue Hurtado Cots **************/
+								/************************************************/
+
+
+
+/* ---- FONTFACES & RESET ---- */
+@font-face {
+    font-family: "LatoNegrita";
+    src: url('../fonts/Lato-Heavy.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url('../fonts/Lato-Semibold.ttf') format('truetype');
+}
+
+body{
+	font-size: 16px;
+	margin: 0 !important;
+}
+
+strong{
+	font-weight: bold !important;
+}
+
+.row{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.oculto{
+	display: none;
+}
+
+.orange{
+	color: orange;
+}
+
+
+
+/* ---- CABECERA ---- */
+#cabecera{
+	padding-bottom: 2rem;
+	padding-top: 1rem;
+}
+
+#descripcion{
+	padding-top: 1.5rem;
+}
+
+#menu{
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px -5px rgba(0,0,0,0.75);
+	z-index: 1;
+}
+
+#menu ul{
+	min-height: 2.7rem;
+	padding-left: 8%;
+}
+
+#menu li{
+	margin-right: 2rem;
+	font-family: "LatoNegrita";
+	font-size: 1.1rem;
+	text-align: center;
+}
+
+#menu li a{
+	color: black;
+}
+
+#menu a:hover{
+	color: orange;
+	border-bottom: 2px solid orange;
+}
+
+#espaciado{
+	min-height: 5rem;
+	background-color: orange;
+	margin-top: -.8rem;
+}
+
+#administracionMenu{
+	font-size: 1.1rem;
+	color: black;
+	font-family: "LatoNegrita";
+	z-index: 10;
+	text-decoration: none;
+}
+
+#administracionMenu:hover{
+	color: orange;
+	border-bottom: 2px solid orange;
+}
+
+#cuerpoMenuAdministracion{
+	z-index: 2;
+}
+
+.liAdministracion:hover{
+	border: none !important;
+}
+
+
+/* ---- PIE ---- */
+#espaciadoInferior{
+	margin-top: 3rem;
+	min-height: 4rem;
+	background-color: orange;
+	padding-top: 1.2%;
+}
+
+#espaciadoInferior p{
+	color: black;
+	font-size: .8rem;
+	font-family: "Lato";
+	padding-left: 5%;
+}
+
+
+
+
+/* ---- MEDIA QUERIES ---- */
+@media (min-width: 768px){
+
+	#cuerpoPresentacion{
+		margin-left: -2%;
+	}
+
+	.ultimosPresentacion{
+		width: 29%;
+		margin-top: -2.3rem;
+	}
+
+	.espacioPanelmd{
+		margin-bottom: 1rem;
+	}
+
+	#btn-usuarios{
+		margin-left: -2rem;
+	}
+
+	#btn-articulos{
+		margin-left: 4rem;
+	}
+
+	#botonAdministracion{
+		margin-left: -1rem;
+	}
+}
+
+@media (max-width: 767px){
+
+	.row{
+		width: 96%;
+		margin: 0 auto;
+	}
+
+	.logoXS{
+		margin-left: 12%;
+	}
+
+	#menu li{
+		text-align: left;
+	}
+
+	.espacioPanelxs{
+		margin-bottom: 1.2rem;
+	}
+
+	#cuerpoPresentacion{
+		padding-bottom: 3rem;
+	}
+
+	.ultimosPresentacion{
+		padding: 0;
+	}
+
+	.ultimasPublicaciones{
+		padding-bottom: 5rem;
+	}
+
+	.ultimasPublicaciones div{
+		clear: both;
+	}
+
+	.ultimasPublicaciones a{
+		float: left;
+	}
+
+	.ultimasPublicaciones span{
+		float: right;
+	}
+
+	.capaComparte img{
+		margin-bottom: 3rem;
+	}
+
+	.capaComparte{
+		text-align: center;
+		padding-bottom: 1.5rem;
+	}
+
+	#administracionMenu{
+		margin-left: -2rem;
+	}
+
+	#cuerpoMenuAdministracion{
+		width: 60%;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------ SITEMAP.HTML ------------------------------ */
+
+
+#cuerpoSitemap{
+	padding-top: 3rem;
+}
+
+#cuerpoSitemap h1{
+	padding-bottom: 2rem;
+}
+
+#cuerpoSitemap a{
+	color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------ INDEX.HTML ------------------------------ */
+
+
+/* ---- CUERPO ---- */
+#cuerpoPresentacion{
+	margin-top: -.8rem;
+	margin-right: -7%;
+	padding-bottom: 6rem;
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px -5px rgba(0,0,0,0.75);
+	background-color: white;
+}
+
+#tituloCuerpo{
+	text-align: center;
+	padding-top: 3rem;
+}
+
+#tituloCuerpo h3{
+	font-weight: bold;
+	font-family: "LatoNegrita";
+}
+
+#primeraFrase{
+	padding: 1rem;
+	padding-top: 4rem;
+	font-family: "Lato";
+}
+
+.capaComparte{
+	margin-top: 4rem;
+	font-family: "Lato"
+
+}
+
+.capaComparte h4{
+	font-family: "LatoNegrita";
+	padding-bottom: 1rem;
+}
+
+.capaComparte img{
+	border-radius: 10%;
+}
+
+
+
+/* ---- COLUMNAS DE LA DERECHA ---- */
+.ultimasPublicaciones{
+	z-index: 1;
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px -5px rgba(0,0,0,0.75);
+	background-color: white;
+}
+
+.ultimasPublicaciones h5{
+	font-family: "LatoNegrita";
+	text-align: center;
+	padding-top: .8rem;
+	padding-bottom: 2rem;
+}
+
+.ultimasPublicaciones{
+	margin-top: 1.5rem;
+	padding-bottom: 2rem;
+	padding-right: 1rem;
+	padding-left: 1rem;
+	font-size: .8rem;
+}
+
+.ultimasPublicaciones div{
+	border-bottom: 1px solid #ddd;
+}
+
+.ultimasPublicaciones a{
+	display: block;
+}
+
+.ultimasPublicaciones a:hover{
+	color: #d37700;
+	text-decoration: none;
+}
+
+.ultimasPublicaciones span{
+	display: block;
+}
+
+#correoContacto{
+	text-align: center;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------ ULTIMOS.HTML ------------------------------ */
+
+/* ---- CUERPO ---- */
+#ultimos{
+	min-height: 30rem;
+	margin-top: -.8rem;
+	margin-left: -1%;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	padding-left: 1rem;
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px -5px rgba(0,0,0,0.75);
+	background-color: white;
+}
+
+.ultimosProductos{
+	z-index: 1;
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px -5px rgba(0,0,0,0.75);
+	background-color: white;
+	margin-top: 1.5rem;
+	padding-bottom: 2rem;
+	padding-right: 1rem;
+	padding-left: 1rem;
+}
+
+.ultimosProductos h5{
+	font-family: "LatoNegrita";
+	text-align: center;
+	padding-top: .8rem;
+	padding-bottom: 2rem;
+}
+
+.col-xs-12 ul li span{
+	color: black;
+	height: 1.5rem;
+}
+
+.col-xs-12 ul li span:hover{
+	color: orange;
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+
+.listaProductos{
+	margin-bottom: 5rem;
+	padding-bottom: 2rem;
+	border-bottom: 1px solid #dddddd;
+}
+
+.listaProductos hr{
+	margin-bottom: 2.5rem;
+	margin-top: 2.5rem;
+}
+
+.listaProductos p{
+	margin-bottom: 0;
+}
+
+.tituloProducto{
+	margin-bottom: .6rem;
+}
+
+.descripcionProducto{
+	margin-top: .5rem;
+}
+
+.listaProductos a{
+	color: orange;
+}
+
+#ultimos-Provincia option:hover{
+	color: orange;
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+
+.liNumPag:hover{
+	cursor: pointer;
+}
+
+
+
+/* ---- MEDIA QUERIES ---- */
+@media (max-width: 767px){
+	
+	.imagenProducto{
+		text-align: center;
+		margin-bottom: 2rem;
+	}
+
+	.imagenProducto img{
+		width: 80%;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------ FORO.HTML ------------------------------ */
+
+/* ---- CUERPO ---- */
+#cuerpoForo{
+	margin-top: -.8rem;
+	margin-left: 4%;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	padding-left: 1rem;
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px -5px rgba(0,0,0,0.75);
+	background-color: white;
+}
+
+#background-blanco{
+	position: fixed;
+	min-height: 1080px;
+	background-color: rgba(255,255,255,0.8);
+	z-index: 9999;
+	display: none;
+}
+
+#carga{
+	position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 1.5s linear infinite;
+    animation: spin 1.5s linear infinite;
+    z-index: 999999;
+    display: none;
+}
+
+#carga img{
+	margin: 0 auto;
+	padding-top: 15px;
+}
+
+#libros, #peliculas, #videojuegos, #reportes{
+	border: 1px solid #fb7;
+	background-color: #fed;
+	border-radius: 10px;
+	margin-bottom: .5rem;
+}
+
+#libros h5, #peliculas h5, #videojuegos h5, #reportes h5{
+	font-family: "Lato";
+	font-weight: bold;
+	background-color: #fb7;
+	text-align: center;
+	padding-top: .2rem;
+	height: 30px;
+	color: black;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	margin-bottom: 0;
+}
+
+.subforo{
+	color: black;
+	font-family: "Lato";
+	font-weight: bold;
+	padding-left: 4%;
+	height: 3.5rem;
+	border: 1px solid #fb7;
+}
+
+.subforo img{
+	height: 3.1rem;
+	padding-top: .2rem;
+	margin-right: 3%;
+}
+
+.subforo a{
+	text-decoration: none;
+	color: black;
+}
+
+.subforo a:hover{
+	color: #c80;
+}
+
+.ultimaCapaSubforo{
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.ultimaRespuesta{
+	width: 30%;
+	height: 3.5rem;
+	font-family: "Lato";
+	font-weight: normal;
+	font-size: .8rem;
+	float: right;
+	border: 2px solid #fb7;
+	border-right: 0;
+	border-top: 0;
+	padding-top: .7em;
+	text-align: center;
+}
+
+.ultimaRespuesta p{
+	margin-bottom: -.3rem;
+}
+
+
+
+/* ---- MEDIA QUERIES ---- */
+@media (max-width: 767px){
+
+	.ultimaRespuesta{
+		display: none;
+	}
+
+	.subforo{
+		padding-left: 6%;
+	}
+
+	.subforo img{
+		margin-right: 5%;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------ SUBFORO.JSP ------------------------------ */
+
+/* ---- CUERPO ---- */
+#cuerpoSubforo{
+	margin-top: -.8rem;
+	margin-left: 4%;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	padding-left: 1rem;
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px -5px rgba(0,0,0,0.75);
+	background-color: white;
+}
+
+#temas{
+	border: 1px solid #fb7;
+	background-color: #fed;
+	margin-bottom: .5rem;
+	border-radius: 10px;
+}
+
+.tema{
+	color: black;
+	padding-left: 4%;
+	height: 3.5rem;
+	border: 1px solid #fb7;
+}
+
+.tema a{
+	text-decoration: none;
+	color: black;
+	font-family: "Lato";
+	font-weight: bold;
+	margin-top: .8rem;
+	display: inline-block;
+}
+
+.tema a:hover{
+	color: #c80;
+}
+
+#temas h5{
+	font-family: "Lato";
+	font-weight: bold;
+	background-color: #fb7;
+	text-align: center;
+	padding-top: .2rem;
+	height: 30px;
+	color: black;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	margin-bottom: 0;
+}
+
+#nuevoTema{
+	margin-bottom: 2rem;
+}
+
+/* ---- MEDIA QUERIES ---- */
+@media (max-width: 767px){
+
+	#cuerpoSubforo{
+		margin-left: 0%;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------ TEMA.JSP ------------------------------ */
+
+/* ---- CUERPO ---- */
+#cuerpoTema{
+	margin-top: -.8rem;
+	margin-left: 4%;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	padding-left: 1rem;
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px -5px rgba(0,0,0,0.75);
+	background-color: white;
+}
+
+#tituloPost{
+	margin-bottom: 1.5rem;
+}
+
+.mensaje{
+	background-color: #fff1db;
+	border-radius: 10px;
+	border: 1px solid #f4cb77;
+	padding-right: 0;
+	margin-top: 1rem;
+}
+
+.datos{
+	border-right: 1px solid #f4cb77;
+	padding-bottom: 1rem;
+}
+
+.nombreUsuario{
+	padding-top: 1rem;
+	font-size: 1.2rem;
+}
+
+.fotoPerfil{
+	margin-top: 1rem;
+	margin-bottom: 1.2rem;
+}
+
+.infoUsuario p{
+	margin-bottom: 0;
+	font-size: .9rem;
+}
+
+.infoUsuario p a{
+	color: #373a3c;
+	text-decoration: none;
+}
+
+.infoTema{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.fechaTema{
+	border-bottom: 1px solid #f4cb77;
+	padding-top: .3rem;
+	padding-bottom: .3rem;
+}
+
+.fechaTema span{
+	padding-top: .3rem;
+	margin-bottom: .4rem;
+	font-size: .9rem;
+}
+
+.cuerpoMensaje{
+	padding-top: 1rem;
+	padding-left: 1rem;
+}
+
+#divEditor{
+	margin-top: 3rem;
+	background-color: #fff1db;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	border-radius: 10px;
+	border: 1px solid #f4cb77;
+}
+
+.btn-toolbar{
+	margin-left: 0;
+}
+
+div.panel-heading{
+	background-color: #e5e5e5;
+}
+
+.note-btn{
+	border: 1px solid #aaa;
+}
+
+#enviarRespuesta{
+	margin-top: 3rem;
+}
+
+/* ---- MEDIA QUERIES ---- */
+@media (max-width: 767px){
+
+	#cuerpoTema{
+		margin-left: 0%;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------ NUEVOTEMA.JSP ------------------------------ */
+
+/* ---- CUERPO ---- */
+#cuerpoNuevoTema{
+	margin-top: -.8rem;
+	margin-left: 4%;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	padding-left: 1rem;
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px -5px rgba(0,0,0,0.75);
+	background-color: white;
+}
+
+#divMensaje{
+	padding-top: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------ BUSCAR.HTML ------------------------------ */
+
+/* ---- CAJON BUSQUEDA ---- */
+#busqueda{
+	margin-top: -.8rem;
+	padding-top: 3rem;
+	padding-bottom: 2rem;
+	padding-left: 1rem;
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px -5px rgba(0,0,0,0.75);
+	background-color: white;
+}
+
+#espacioEnviar{
+	height: 2rem;
+}
+
+.col-xs-12 ul li span{
+	color: black;
+	height: 1.5rem;
+}
+
+.col-xs-12 ul li span:hover{
+	color: orange;
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+
+#botonEnviar button{
+	color: black;
+	font-weight: bold;
+}
+
+.campoBusqueda{
+	min-height: 3rem;
+}
+
+#resultadoFiltro{
+	margin-top: 4rem;
+}
+
+
+
+/* ---- MEDIA QUERIES ---- */
+@media (max-width: 767px){
+	#botonEnviar{
+		margin-left: 20%;
+	}
+
+	.col-xs-12 ul li span{
+		color: black;
+		height: 2rem;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------ PERFIL.HTML ------------------------------ */
+
+/* ---- PANEL DEL PERFIL ---- */
+#panelPerfil{
+	margin-top: -.8rem;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	padding-left: 1rem;
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px -5px rgba(0,0,0,0.75);
+	background-color: white;
+}
+
+#numNotificaciones{
+	background-color: #ffb547;
+	border-radius: 15px;
+	font-size: .85rem;
+	padding-left: .35rem;
+	padding-right: .3rem;
+	padding-top: .1rem;
+	padding-bottom: .1rem;
+	text-align: center;
+	margin-left: .2rem;
+}
+
+#numNotificaciones:hover{
+	color: black;
+	border-bottom: 2px solid white;
+}
+
+#nombreUsuario, #tipoUsuario, #fechaRegistro, #mensajes{
+	display: block;
+}
+
+#tipoUsuario{
+	margin-bottom: 1.5rem;
+}
+
+#desconexion{
+	color: black !important;
+	font-family: "Lato" !important;
+	font-weight: bold;
+	font-size: 1.1rem;
+}
+
+#nombreUsuario{
+	font-family: "LatoNegrita";
+	font-size: 2rem;
+}
+
+#infoUsuario2{
+	margin-top: 1.5rem;
+}
+
+hr{
+	margin-top: 1rem;
+}
+
+#divModificar{
+	margin-bottom: 1rem;
+}
+
+#encontrarMensajes{
+	margin-top: 1rem;
+	padding-left: 2rem;
+}
+
+#encontrarMensajes a{
+	color: #373A3C;
+}
+
+#encontrarMensajes a:hover{
+	color: orange;
+	text-decoration: none;
+}
+
+.meterClear{
+	clear: both;
+	height: .5rem;
+}
+
+.opcionesProductos{
+	padding-top: 2rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
+}
+
+.opcionesProductos a{
+	margin-right: 15%;
+	margin-bottom: 1rem;
+	color: black;
+	font-family: "Lato";
+}
+
+#accordion{
+	margin-top: 5rem;
+}
+
+.card-header a{
+	color: #373A3C;
+}
+
+.card p{
+	font-family: "Lato";
+}
+
+.btn-warning{
+	color: black !important;
+	font-weight: bold !important;
+}
+
+#botonesLogin{
+	margin-top: 2rem;
+}
+
+
+
+/* ---- MEDIA QUERIES ---- */
+@media (max-width: 767px){
+
+	#panelPerfil{
+		padding-left: 0;
+	}
+
+	#fotoPerfil{
+		margin-top: 2rem;
+		text-align: center;
+	}
+
+	#infoUsuario{
+		margin-top: 3rem;
+		padding-left: 2rem;
+	}
+
+	#infoUsuario2{
+		margin-top: 0;
+		padding-left: 2rem;
+	}
+
+	#encontrarMensajes{
+		padding-left: 1rem;
+	}
+
+	#opcionesProductos{
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+
+	.card img{
+		margin-bottom: 2rem;
+	}
+
+}
+
+@media (min-width: 768px){
+	#fotoPerfil img{
+		margin-left: 15%;
+		margin-right: 10%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------ MODIFICAR PERFIL.HTML ------------------------------ */
+
+#modificarPerfil{
+	margin-top: -.8rem;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	padding-left: 1rem;
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px -5px rgba(0,0,0,0.75);
+	background-color: white;
+}
+
+#mensajeModificacion{
+	margin-top: 3.5rem;
+	margin-bottom: 1rem;
+	font-size: 0.85rem;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------ SUBIR.HTML ------------------------------ */
+
+/* ---- PANEL DE SUBIR ---- */
+#subir{
+	margin-top: -.8rem;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	padding-left: 1rem;
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px -5px rgba(0,0,0,0.75);
+	background-color: white;
+}
+
+.col-xs-12 ul li span{
+	color: black;
+	height: 1.5rem;
+}
+
+.col-xs-12 ul li span:hover{
+	color: orange;
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+.campoSubida{
+	min-height: 3rem;
+}
+
+#espacioEnviar{
+	height: 2rem;
+}
+
+
+#botonEnviar button{
+	color: black;
+	font-weight: bold;
+}
+
+#fotoProducto{
+	height: 40px;
+	border-radius: 5px;
+	font-size: .8rem;
+	border: 0px solid;
+	padding-left: 0;
+}
+
+#labelDescripcion{
+	margin-right: -.5%;
+}
+
+#divDescripcion{
+	padding-top: -1rem;
+}
+
+.progress{
+	display: none;
+}
+
+
+
+/* ---- MEDIA QUERIES ---- */
+@media (max-width: 767px){
+	#botonEnviar{
+		margin-left: 20%;
+	}
+
+	.col-xs-12 ul li span{
+		color: black;
+		height: 2rem;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------ REGISTRO.HTML ------------------------------ */
+
+/* ---- FORMULARIO DE REGISTRO ---- */
+#registro{
+	z-index: 1;
+	margin-top: -.8rem;
+	margin-left: 8%;
+	padding-top: 6rem;
+	padding-bottom: 3rem;
+	padding-left: 1rem;
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px -5px rgba(0,0,0,0.75);
+	background-color: white;
+}
+
+#formRegistro{
+	font-family: "Lato";
+}
+
+.campoRegistro{
+	margin-bottom: 1.2rem;
+}
+
+.captcha{
+	padding-top: 3rem;
+}
+
+#confirmarRegistro{
+	margin-top: 3rem;
+}
+
+.campoErroneo{
+	box-shadow: 0px 0px 15px -6px rgba(252,0,0,1);
+	border: 2px solid #fc675f;
+}
+
+
+
+/* ---- MEDIA QUERIES ---- */
+@media (max-width: 767px){
+	
+	#registro{
+		margin-left: 0;
+	}
+
+	.captcha{
+		padding-top: 0;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------ ERROR.HTML ------------------------------ */
+
+/* ---- CUERPO ---- */
+#cuerpoError{
+	margin-top: -.8rem;
+	margin-left: 4%;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	padding-left: 1rem;
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px -5px rgba(0,0,0,0.75);
+	background-color: white;
+	font-family: "LatoNegrita";
+}
+
+#cuerpoError img{
+	margin-top: 2rem;
+}
+
+h1{
+	font-size: 2.5rem;
+	padding-bottom: 3rem;
+	padding-top: 3rem;
+	color: orange;
+}
+
+h2{
+	font-size: 1.5rem;
+}
+
+#cuerpoError ul{
+	padding-top: 1.5rem;
+	padding-bottom: 4rem;
+}
+
+li a{
+	color: orange;
+}
+
+
+
+/* ---- MEDIA QUERIES ---- */
+@media (max-width: 767px){
+	#cuerpoError{
+		margin-left: 0;
+	}
+
+	h1{
+		font-size: 2rem;
+		padding-top: 1.5rem;
+	}
+
+	#cuerpoError img{
+		width: 60%;
+		margin-top: -2rem;
+	}
+
+	#divImagen{
+		text-align: center;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------ GESTIONUSUARIOS.HTML ------------------------------ */
+
+/* ---- CUERPO ---- */
+#cuerpoAdmin{
+	margin-top: -.8rem;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	padding-left: 1rem;
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px -5px rgba(0,0,0,0.75);
+	background-color: white;
+}
+
+#tituloAdmin{
+	text-align: center;
+}
+
+.td-id{
+	font-weight: bold;
+}
+
+.iconoModificar{
+	color: orange;
+	text-decoration: none;
+}
+
+.iconoBanear{
+	color: red;
+	text-decoration: none;
+}
+
+.textoCentrado{
+	text-align: center;
+}
+
+.botonesModUsuario{
+	padding-top: 3rem;
+}
+
+.modal-title{
+	padding-top: 1rem;
+	text-align: center;
+}
+
+.paginacion{
+	text-align: center;
+}
+
+.page-link{
+	color: orange;
+}
+
+.page-item.active .page-link, .page-item.active .page-link:focus, .page-item.active .page-link:hover{
+	background-color: orange;
+	color: white;
+	border-color: #ddd;
+}
+
+.espaciadoInputMod{
+	margin-top: 2rem;
+}
+
+.iconoVerde{
+	color: #53b9f4;
+	text-decoration: none;
+}
+
+#busqueda{
+	border: 1px solid rgba(0,0,0,0.1);
+	margin-bottom: 5rem;
+	margin-top: 1rem;
+}
+
+.red{
+	color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------ GESTIONARTICULOS.HTML ------------------------------ */
+
+/* ---- CUERPO ---- */
+#cuerpoArticulos{
+	margin-top: -.8rem;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	padding-left: 1rem;
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px -5px rgba(0,0,0,0.75);
+	background-color: white;
+}
+
+#tituloAdmin{
+	text-align: center;
+}
+
+.td-id{
+	font-weight: bold;
+}
+
+.iconoModificar{
+	color: orange;
+	text-decoration: none;
+}
+
+.iconoBanear{
+	color: red;
+	text-decoration: none;
+}
+
+.textoCentrado{
+	text-align: center;
+}
+
+.ojoVermas{
+	color: #f4aa42;
+}
+
+.acordeon{
+	margin-top: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------ PRODUCTO.HTML ------------------------------ */
+
+#cuerpoArticulo{
+	margin-top: -.8rem;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	padding-left: 1rem;
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px -5px rgba(0,0,0,0.75);
+	background-color: white;
+	font-family: "Lato";
+}
+
+.imgProducto{
+	margin-top: 1.5rem;
+}
+
+.infoProdMargin{
+	margin-bottom: 1.2rem;
+}
+
+.infoProducto h5, .infoProducto strong{
+	font-family: "LatoNegrita";
+}
+
+.infoProducto p{
+	margin-bottom: 0rem;
+}
+
+
+@media (min-width: 768px){
+
+	
+
+}
