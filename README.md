@@ -2,7 +2,7 @@
 
 #### Integración proyecto Big Ben Academy con J2EE
 
-<p align="center"><img src="https://github.com/Josue-Hurtado-Cots/compartearte/blob/master/public/img/portada.png" width="150"></p>
+<p align="center"><img src="https://github.com/Josue-Hurtado-Cots/compartearte/blob/master/public/img/portada.png" width="300"></p>
 
 <p align="justify">Proyecto que consiste en una página web de intercambio de películas, libros y videojuegos, totalmente gratis. 
 Los usuarios se pueden en contacto bien a través del teléfono, o bien a través de mensajes privados mediante el foro incorporado en 
